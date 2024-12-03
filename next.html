@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy Birthday!!! :)</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+  <body>
+
+    <div class="container" style="visibility: visible;">
+        <audio autoplay loop>
+            <source src="Assets/HumToDeewaneHue.mp3" type="audio/mp3">
+        </audio>
+        <div class="row">
+
+            <div class="wish">
+                <h3 class="wish-hbd" data-node-name="wishHeading" style="color:red">Happy Birthday!</h3>
+                <h5 style="color:#ee1669">Madam</h5>
+              </div>
+
+            <div class="col-8-md-xs">
+
+                <img src="img/2.jpg" alt="Eyes" id="slideimg" style="width: 50vh;">
+            </div>
+            
+        </div>
+        
+
+    </div>
+
+    
+
+
+    <script>
+        function one(){
+            document.getElementById("slideimg").src="img/3.jpg";
+        }
+        function two(){
+            document.getElementById("slideimg").src="img/4.jpg";
+        }
+        function three(){
+            document.getElementById("slideimg").src="img/5.jpg";
+        }
+        function four(){
+            document.getElementById("slideimg").src="img/6.jpg";
+        }
+        function five(){
+            document.getElementById("slideimg").src="img/7.jpeg";
+        }
+        function six(){
+            document.getElementById("slideimg").src="img/8.jpg";
+        }
+        function zero(){
+            document.getElementById("slideimg").src="img/9.jpg";
+        }
+        setInterval(one,2000);
+        setInterval(two,4000);
+        setInterval(three,6000);
+        setInterval(four,8000);
+        setInterval(five,100000);
+        setInterval(six,12000);
+        setInterval(zero,14000);
+    </script>
+  </body>
+</html>
